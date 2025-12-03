@@ -340,6 +340,6 @@ Aerodesk is a browser extension designed to streamline flight booking for travel
 ## 🤝 Support
 
 **Questions?**
-- Email: contact@aerodesk.io
-- Security issues: security@aerodesk.io
+- Email: evolyx.offical@gmail.com
+- Security issues: evolyx.offical@gmail.com
 `;function tS(){const[e,n]=wl.useState("home"),t=()=>{switch(e){case"privacy":return oe.jsx(_o,{remarkPlugins:[Ao,No],children:Jw});case"terms":return oe.jsx(_o,{remarkPlugins:[Ao,No],children:eS});case"home":default:return oe.jsx(_o,{remarkPlugins:[Ao,No],children:nS})}};return oe.jsxs("div",{className:"app",children:[oe.jsx("nav",{className:"navbar",children:oe.jsxs("div",{className:"nav-container",children:[oe.jsx("div",{className:"nav-brand",onClick:()=>n("home"),children:"✈️ Aerodesk"}),oe.jsxs("ul",{className:"nav-menu",children:[oe.jsx("li",{className:"nav-item",children:oe.jsx("button",{className:`nav-link ${e==="home"?"active":""}`,onClick:()=>n("home"),children:"Home"})}),oe.jsx("li",{className:"nav-item",children:oe.jsx("button",{className:`nav-link ${e==="privacy"?"active":""}`,onClick:()=>n("privacy"),children:"Privacy Policy"})}),oe.jsx("li",{className:"nav-item",children:oe.jsx("button",{className:`nav-link ${e==="terms"?"active":""}`,onClick:()=>n("terms"),children:"Terms of Use"})})]})]})}),oe.jsx("main",{className:"main-content",children:oe.jsx("div",{className:"container",children:t()})}),oe.jsx("footer",{className:"footer",children:oe.jsx("p",{children:"© 2025 Aerodesk Development Team. All rights reserved."})})]})}Ro.createRoot(document.getElementById("root")).render(oe.jsx(Xh.StrictMode,{children:oe.jsx(tS,{})}));
